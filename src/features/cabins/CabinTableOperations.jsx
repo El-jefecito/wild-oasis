@@ -13,6 +13,7 @@ function CabinTableOperations() {
           { value: "with-discount", label: "With discount" },
         ]}
       />
+
       <SortBy
         options={[
           {
@@ -33,11 +34,11 @@ function CabinTableOperations() {
           },
           {
             value: "maxCapacity-asc",
-            label: "Sort by price(low first)",
+            label: "Sort by capacity(low first)",
           },
           {
             value: "maxCapacity-desc",
-            label: "Sort by price(high first)",
+            label: "Sort by capacity(high first)",
           },
         ]}
       />
